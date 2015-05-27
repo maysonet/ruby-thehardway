@@ -1,0 +1,59 @@
+puts :  to output information to the console
++ : to add numbers or concatenate strings
+/ : to divide numbers
+- : to subtract numbers
+* : to multiply numbers or repeat strings
+% : to evaluate modulo of numbers
+< : less than
+> : greater than
+<= : less or equal than
+>= : greater or equal than
+= : assign value to 
+%d : to output an integer number using string formatter
+%f : to output floating point number iusing string formatter
+%.2f : to output floating point number with precision using string formatter
+%s : to output strings using string formatter
++= : is equal to variable = variable + 1
+
+% variable : used in string formatter to output value of variable
+% [variable1, variable2..] : used in string formatter to output value of multiple variables
+
+#{} : using string interpolation to output the value of variables
+
+string + string : string concatenation
+true : boolean 
+false : boolean
+string * integer : string repetition
+
+puts "xxxx", variable : to output string and value of a variable in the next line
+
+<<PARAGRAPH
+PARAGRAPH : to output multiples lines of strings
+
+capitalize: capitalizes the first letter of a string and make the rest lowercase
+
+\n : to create a new line
+\t : to create a tab
+\\ : to output the \ (escape sequence)
+
+gets.chomp() : gets is the Ruby method that gets user input; chomp removes extra line
+require : to run another file
+do...end :  ? 
+File.open(filename) : open file named filename and return File object
+File.open(filename, 'w') : truncate existing file or create new file for writing
+close() : close any pending writes to the os
+File.truncate(filename, integer) : truncates the file filename to be at most integer bytes long.
+File.exist?(filename) : return true if the file filename exist, otherwise return false
+
+read()
+seek()
+
+def...end : define a function
+
+
+first, second, third  = ARGV : to get arguments from the command line. first = ARGV[0], second = ARGV[1]...
+ARGV[index] : get arguments from the command line after the script name. 0 is the first...
+STDIN.gets.chomp() : to get user input when using ARGV and remove extra line
+STDIN.gets :  to get user input when using ARGV 
+
+$0 : to get script name
