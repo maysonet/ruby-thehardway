@@ -30,7 +30,7 @@ puts "xxxx", variable : to output string and value of a variable in the next lin
 <<PARAGRAPH
 PARAGRAPH : to output multiples lines of strings
 
-capitalize: capitalizes the first letter of a string and make the rest lowercase
+capitalize() : capitalizes the first letter of a string and make the rest lowercase
 
 \n : to create a new line
 \t : to create a tab
@@ -57,3 +57,7 @@ STDIN.gets.chomp() : to get user input when using ARGV and remove extra line
 STDIN.gets :  to get user input when using ARGV 
 
 $0 : to get script name
+
+
+Array.shift() : removes the first element from the array and returns it
+Array.pop() : removes the last element from the array and returns it
