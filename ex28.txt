@@ -1,0 +1,7 @@
+!= : not equal
+== : equal
+<= : less or equal than
+>= : greater or equal than
+<  : less than
+>  : greater than
+<=>: less, equal or greater than : return 0 if equal, 1 if greater, -1 if less

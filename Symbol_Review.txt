@@ -1,0 +1,82 @@
+###KEYWORDS
+
+*alias : to overrude the behaviour of some method without changing the origin implementation of it
+
+and : logic operator, to use with booleans
+
+BEGIN : 
+
+*begin : to handle exceptions. enclose code that may raise an exception in begin/end
+
+*break : to get out of a loop
+
+case : 
+
+class : 
+
+def : to define a function
+
+defined? : 
+
+do :to start a block statement.
+
+else : must use with if.. if all the conditions are not met, run the code of the else
+Its also used in exception handling. It goes after the rescue and before any ensure. if no exceptions are raised by the main body, the else is excecuted.
+
+elsif : must use with if.. add another comparison to the if statement
+
+END : 
+
+*end : to end an if, while, for, or function, handle exception
+
+*ensure : ensures that the code is always evaluated. Used in exception handling. (equivalent to Java finally)
+
+false : boolean 
+
+for : loop
+
+if : decision
+
+in : to use in block statement
+
+module : 
+
+next : 
+
+nil : 
+
+not : logic operator. if not true -> false
+if not false -> true
+
+or : logic operator
+
+redo : 
+
+*rescue : tell Ruby the types of exceptions we want to handle
+
+*retry : to excecute begin block from the beginning
+
+return : return a value from a function. if the return value is at the end of the function, the return is not needed
+
+self : 
+
+super : 
+
+then : 
+
+true : boolean
+
+undef : 
+
+unless : 
+
+until : 
+
+when : 
+
+while : loop
+
+yield : 
+
+
+###DATATYPES
